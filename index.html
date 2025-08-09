@@ -5,7 +5,7 @@
 	<title>Клуб четырех коней</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20250809141521">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250809153510">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="preload" href="fonts/GolosText-Regular.woff2" as="font" type="font/woff2" crossorigin>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,9 +48,18 @@
 
 				</div>
 
-				<marquee class="promo__running">
-					<ul class="promo__line"></ul>
-				</marquee>
+
+
+				<div class="promo__running" data-marquee data-grid-keywords-wrapper data-marquee-space="0"
+					data-marquee-speed="1000" data-marquee-direction="left">
+					<div class="promo__line" data-grid-keywords>
+						<span data-grid-keywords-sizer class="promo__line-text">Дело помощи утопающим — дело рук самих
+							утопающих!</span>
+						<span class="promo__line-text">Шахматы двигают вперед не только культуру, но и экономику!</span>
+						<span class="promo__line-text">Лед тронулся, господа присяжные заседатели!</span>
+					</div>
+				</div>
+
 
 
 			</section>
@@ -232,6 +241,7 @@
 			</section>
 			<section class="participants" id="participants" aria-labelledby="participants-title">
 				<div class="participants__container container">
+
 					<div class="participants__head">
 						<h2 class="participants__title" id="participants-title">Участники турнира</h2>
 
@@ -334,9 +344,16 @@
 					</div>
 				</div>
 
-				<marquee class="participants__running">
-					<ul class="promo__line"></ul>
-				</marquee>
+				<div class="participants__running" data-marquee data-grid-keywords-wrapper data-marquee-space="0"
+					data-marquee-speed="1000" data-marquee-direction="left">
+					<div class="promo__line" data-grid-keywords>
+						<span data-grid-keywords-sizer class="promo__line-text">Дело помощи утопающим — дело рук самих
+							утопающих!</span>
+						<span class="promo__line-text">Шахматы двигают вперед не только культуру, но и экономику!</span>
+						<span class="promo__line-text">Лед тронулся, господа присяжные заседатели!</span>
+					</div>
+				</div>
+
 			</section>
 		</main>
 		<footer class="footer">
@@ -348,7 +365,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20250809141521"></script>
+	<script src="js/app.min.js?_v=20250809153510"></script>
 </body>
 
 </html>

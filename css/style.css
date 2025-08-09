@@ -323,7 +323,7 @@ a:focus-visible {
   text-wrap: nowrap;
   padding: 0 18px;
 }
-.promo__line-text:not(:first-child)::before {
+.promo__line-text::before {
   content: "•";
   position: absolute;
   left: -7px;
@@ -352,9 +352,6 @@ a:focus-visible {
 .presentation__main {
   display: flex;
   gap: 0.75rem;
-}
-.presentation__photo {
-  width: 100%;
 }
 .presentation__photo img {
   margin: -1.6875rem 0 0 -1.6875rem;
